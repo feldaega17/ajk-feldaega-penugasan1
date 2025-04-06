@@ -32,3 +32,22 @@ Endpoint /health memberikan informasi status server:
 ├── requirements.txt      # Daftar dependensi
 ├── Procfile              # Perintah run untuk Railway
 ```
+
+# Langkah Deployment
+
+1. Push kode ke GitHub
+
+2. Login ke Railway dan hubungkan repo
+
+3. Railway otomatis build & deploy
+
+4. Akses API melalui URL yang diberikan Railway
+
+# ✅ CI/CD Otomatis
+
+Setiap commit baru ke branch main, Railway akan otomatis:
+
+Build ulang
+
+Redeploy aplikasi terbaru
+
